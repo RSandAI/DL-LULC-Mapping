@@ -17,17 +17,27 @@ Land Use and Land Cover Maps (LULC) are used in many sectors for various purpose
 
 The region selected for the dataset is the Aksu region of Bursa province in Turkey, which is the region shown in Figure . The location of this region is 40.18°N, 29.07°E, within the borders of Bursa at an altitude of 150 m. The Aksu region was chosen because it has a variety of agricultural land and forested areas, as well as man-made areas such as urban fabric and mining areas.
 
+![Output](https://github.com/RSandAI/DL-LULC-Mapping/blob/main/Images/Area.png?raw=true)
+
 ## Data
 
 In creating the dataset, 4 different spectral bands were combined on a single image. The panchromatic (PAN) image with a resolution of 30 cm and four multi-spectral bands (red, green, blue and near infrared) with a resolution of 2 m were combined with the Pansharp2 algorithm and pan-sharpened images with a resolution of 30 cm were produced with four spectral bands. The data was divided into 419 data for training, 120 data for validation and 60 data for testing, i.e. 70% for training, 20% for validation and 10% for testing. The images are 512* 512 in size. As can be seen in the figure, there are images and masks consisting of 10 different regions, 9 different classes and regions without data. Forest is 44.1%, heterogeneous agricultural areas 26%, no data 12.3%, arable agricultural lands 8.9%, permanent agricultural areas 5.0%, discontinuous urban texture 1%, inland water resources 0.9%, mining-casting and construction sites 0.7%, roads and railways 0.5% and artificial non-agricultural vegetation areas 0.1%.
 
+![Output](https://github.com/RSandAI/DL-LULC-Mapping/blob/main/Images/Data%20Classes.png?raw=true)
+
 ##  Thesis Study
 
-Figure Summarizes Related Study
+Figures Summarize Related Study
+
+![Output](https://github.com/RSandAI/DL-LULC-Mapping/blob/main/Images/Method.png?raw=true)
+
+![Output](https://github.com/RSandAI/DL-LULC-Mapping/blob/main/Images/Test%20Maps.png?raw=true)
 
 ## Evaluation
 
 The created ACAE maps were evaluated with IoU score, F1 score, precision, recall and Dice Focal Loss metrics. The graph shows the comparisons.
+
+![Output](https://github.com/RSandAI/DL-LULC-Mapping/blob/main/Images/Metrics.png?raw=true)
 
 # Result
 
