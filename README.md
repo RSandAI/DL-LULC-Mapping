@@ -45,6 +45,6 @@ The use of DL methods in the creation of LULUC maps is an effective method in te
 
 ### References
 
-**İskender Berkay Sür** B. Sc. Thesis (2023)
+**İskender Berkay Sür** B. Sc. Thesis (2024)
 
 **Sertel, E., Ekim, B., Osgouei, P. E., & Kabadayi, M. E.** (2022). Land Use and Land Cover Mapping Using Deep Learning Based Segmentation Approaches and VHR Worldview-3 Images_. Remote Sensing, 14_(18), 4558. https://doi.org/10.3390/rs14184558
