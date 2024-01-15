@@ -35,7 +35,7 @@ Figures Summarize Related Study
 
 ## Evaluation
 
-The created ACAE maps were evaluated with IoU score, F1 score, precision, recall and Dice Focal Loss metrics. The graph shows the comparisons.
+The created LULC maps were evaluated with IoU score, F1 score, precision, recall and Dice Focal Loss metrics. The graph shows the comparisons.
 
 ![Output](https://github.com/RSandAI/DL-LULC-Mapping/blob/main/Images/Metrics.png?raw=true)
 
